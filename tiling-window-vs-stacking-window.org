@@ -1,0 +1,18 @@
+#+author: NFVBlog
+#+Title: Filosofia Tiling Vs Stacking window manager
+
+* Introduzione
+Uno dei concetti che creano più discussione e alle volte liti tra le community di utenti Linux, è proprio quella della filosofia sulla gestione delle finestre, infatti, esistono due ottiche a riguardo:
+- *Tiling*: in cui le finestre sono bloccate in un layout e che possono essere spostate tramite delle shortcuts da tastiera;
+- *Stacking*: con finestre mobili che possono essere spostate tramite l'utilizzo del mouse e alcune shortcuts.
+
+Di cui la seconda è la più diffusa, visto che comunque tutti i desktop environment e i sistemi commerciali hanno un window manager stacking "/a pila/".
+#+begin_quote
+C'è da dire che il primo approccio alle gui è di natura Tiling, infatti, anche le prime versioni di windows (1.0) rientravano in questa categoria. Quando esso era ancora solo un programma per MS/Dos
+#+end_quote
+
+** I difetti del Tiling Window manager
+I tiling window manager hanno un sostaziale difetto dato dalla loro stessa natura, infatti, proprio il fatto che le finestre ottengono le proporzioni date dai layout crea dei problemi con le applicazioni multi finestra o che sono pensati per avere delle proporzioni speficiche. Per di più molte volte sorgono anche problemi di coerenza grafica. C'è da dire che comunque una delle implementazioni è quello di creare delle regole per poter stipulare delle eccezioni per applicativi specifici.
+
+** I difetti del motello Stacking
+Nel caso dello stacking window manager se non ha al suo interno una modelità exposé "/in stile mission control di Mac Os o quello di GNOME shell/" e anche la possibilità di bloccare le finestre a quadranti, diventa dispersivo, ma nei desktop moderni tipicamente sono implementati.
